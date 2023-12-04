@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<script id="sap-ui-bootstrap"
+		src="https://ui5.sap.com/1.120.0/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_bluecrystal"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-resourceroots='
+				{ "oft.fiori" : "./" }
+		'></script>
+		
+		
+		<script id="applicationView"> 
+			var oAppView = new sap.ui.view({
+				id:"idAppView",
+				viewName:"oft.fiori.view.App",
+				type: sap.ui.core.mvc.ViewType.XML
+		});
+			oAppView.placeAt("content");
+		</script>
+		
+	</head>
+	
+	<body class="sapUiBody">
+		<div id="content"></div>
+	</body>
+</html>

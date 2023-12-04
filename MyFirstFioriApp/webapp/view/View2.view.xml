@@ -1,0 +1,25 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="oft.fiori.controller.View2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+			<Page title="View 2">
+				
+				<headerContent>
+					<Button type="Emphasized" icon= "sap-icon://nav-back" text="back" press="onBack"></Button>
+				</headerContent>
+				
+				<content>
+				
+				<ObjectHeader title="Input"></ObjectHeader>
+				<IconTabBar>
+					<items>
+						<IconTabFilter key="moreInfo" text="More Info" icon="sap-icon://information" ></IconTabFilter>
+						<IconTabFilter key="orderData" text="Orders" icon="sap-icon://sales-order" ></IconTabFilter>
+						
+					</items>
+				</IconTabBar>
+				
+				
+				</content>
+			</Page>
+	
+</mvc:View>
